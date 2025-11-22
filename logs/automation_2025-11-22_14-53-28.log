@@ -1,0 +1,258 @@
+2025-11-22 14:53:28,360 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:28,360 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:28,360 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:28,360 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:28,360 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:28,360 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:29,268 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,268 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,268 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,268 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,268 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,268 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,563 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,563 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,563 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,563 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,563 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,563 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
+2025-11-22 14:53:29,616 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,616 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,616 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,616 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,616 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,616 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,618 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,618 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,618 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,618 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,618 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,618 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,622 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,622 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,622 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,622 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,622 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,622 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,623 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,623 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,623 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,623 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,623 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,623 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,624 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,624 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,624 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,624 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,624 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,624 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,628 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,628 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,628 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,628 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,628 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,628 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,629 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,629 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,629 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,629 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,629 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,629 - automation_framework.core.logger - INFO - Connected to database: test_db_master.sqlite
+2025-11-22 14:53:29,630 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,630 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,630 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,630 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,630 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,630 - automation_framework.core.logger - INFO - Executed script: /Users/binayakkhanal/PycharmProject/swagLabs/automation_framework/database/schema.sql
+2025-11-22 14:53:29,682 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:29,682 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:29,682 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:29,682 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:29,682 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:29,682 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
+2025-11-22 14:53:29,689 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,689 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,689 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,689 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,689 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:29,689 - automation_framework.core.logger - INFO - Closed database connection
+2025-11-22 14:53:32,610 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:32,610 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:32,610 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:32,610 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:32,610 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:32,610 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:32,724 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:32,724 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:32,724 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:32,724 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:32,724 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:32,724 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:32,794 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:32,794 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:32,794 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:32,794 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:32,794 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:32,794 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:34,906 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:53:34,906 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:53:34,906 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:53:34,906 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:53:34,906 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:53:34,906 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:53:35,009 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:35,009 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:35,009 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:35,009 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:35,009 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:35,009 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:35,061 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:35,061 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:35,061 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:35,061 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:35,061 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:35,061 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:35,076 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:53:35,076 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:53:35,076 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:53:35,076 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:53:35,076 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:53:35,076 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:53:37,078 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:53:37,078 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:53:37,078 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:53:37,078 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:53:37,078 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:53:37,078 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:53:37,172 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:37,172 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:37,172 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:37,172 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:37,172 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:37,172 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:37,222 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:37,222 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:37,222 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:37,222 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:37,222 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:37,222 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:39,244 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:53:39,244 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:53:39,244 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:53:39,244 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:53:39,244 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:53:39,244 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:53:39,344 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:39,344 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:39,344 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:39,344 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:39,344 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:39,344 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:44,398 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:44,398 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:44,398 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:44,398 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:44,398 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:44,398 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:46,373 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:53:46,373 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:53:46,373 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:53:46,373 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:53:46,373 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:53:46,373 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:53:46,459 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:46,459 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:46,459 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:46,459 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:46,459 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:46,459 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:53:46,556 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:46,556 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:46,556 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:46,556 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:46,556 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:46,556 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:53:46,606 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:46,606 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:46,606 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:46,606 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:46,606 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:46,606 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:53:46,715 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:53:46,715 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:53:46,715 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:53:46,715 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:53:46,715 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:53:46,715 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:53:46,750 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:53:46,750 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:53:46,750 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:53:46,750 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:53:46,750 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:53:46,750 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:53:46,777 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:53:46,777 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:53:46,777 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:53:46,777 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:53:46,777 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:53:46,777 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:53:46,812 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:53:46,812 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:53:46,812 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:53:46,812 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:53:46,812 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:53:46,812 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:53:46,822 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:53:46,822 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:53:46,822 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:53:46,822 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:53:46,822 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:53:46,822 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:53:46,864 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:53:46,864 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:53:46,864 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:53:46,864 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:53:46,864 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:53:46,864 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:53:46,905 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:53:46,905 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:53:46,905 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:53:46,905 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:53:46,905 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:53:46,905 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:53:46,943 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:53:46,943 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:53:46,943 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:53:46,943 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:53:46,943 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:53:46,943 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:53:46,983 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:53:46,983 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:53:46,983 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:53:46,983 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:53:46,983 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:53:46,983 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:53:47,009 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:53:47,009 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:53:47,009 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:53:47,009 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:53:47,009 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:53:47,009 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:53:47,017 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:53:47,017 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:53:47,017 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:53:47,017 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:53:47,017 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:53:47,017 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
+2025-11-22 14:53:47,030 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully

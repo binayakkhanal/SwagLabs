@@ -1,0 +1,132 @@
+2025-11-22 14:21:22,017 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:21:22,017 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:21:22,017 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:21:22,017 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:21:22,017 - automation_framework.core.logger - INFO - Typed 'problem_user' into element: ('id', 'user-name')
+2025-11-22 14:21:22,017 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:21:22,160 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:22,160 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:22,160 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:22,160 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:22,160 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:22,160 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:22,237 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:22,237 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:22,237 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:22,237 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:22,237 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:22,237 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:24,325 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:21:24,325 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:21:24,325 - automation_framework.core.logger - INFO - Typed 'locked_out_user' into element: ('id', 'user-name')
+2025-11-22 14:21:24,327 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:21:24,327 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:21:24,327 - automation_framework.core.logger - INFO - Typed 'performance_glitch_user' into element: ('id', 'user-name')
+2025-11-22 14:21:24,461 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:24,461 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:24,461 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:24,461 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:24,461 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:24,461 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:24,517 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:24,517 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:24,517 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:24,535 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:21:24,535 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:21:24,535 - automation_framework.core.logger - INFO - Got text 'Epic sadface: Sorry, this user has been locked out.' from element: ('css selector', "[data-test='error']")
+2025-11-22 14:21:26,179 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:21:26,179 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:21:26,179 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:21:26,278 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:21:26,278 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:21:26,278 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:21:26,379 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:26,379 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:26,379 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:21:26,431 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:26,431 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:26,431 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:26,560 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:21:26,560 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:21:26,560 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:21:26,603 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:21:26,603 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:21:26,603 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:21:26,641 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:21:26,641 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:21:26,641 - automation_framework.core.logger - INFO - Total price calculated: 95.97
+2025-11-22 14:21:26,686 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:21:26,686 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:21:26,686 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:21:26,727 - automation_framework.core.logger - ERROR - Failed to type into element: ('id', 'first-name'). Error: Message: element not interactable
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x000000010264eecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000102646b88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x000000010215e114 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73608
+3   chromedriver                        0x00000001021a0778 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 345580
+4   chromedriver                        0x000000010219f15c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 339920
+5   chromedriver                        0x000000010219b504 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324472
+6   chromedriver                        0x00000001021e6d54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+7   chromedriver                        0x0000000102199ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+8   chromedriver                        0x00000001026120c8 cxxbridge1$str$ptr + 2692164
+9   chromedriver                        0x00000001026158dc cxxbridge1$str$ptr + 2706520
+10  chromedriver                        0x00000001025f284c cxxbridge1$str$ptr + 2563016
+11  chromedriver                        0x00000001026161b4 cxxbridge1$str$ptr + 2708784
+12  chromedriver                        0x00000001025e40f4 cxxbridge1$str$ptr + 2503792
+13  chromedriver                        0x0000000102635498 cxxbridge1$str$ptr + 2836500
+14  chromedriver                        0x000000010263561c cxxbridge1$str$ptr + 2836888
+15  chromedriver                        0x00000001026467d8 cxxbridge1$str$ptr + 2906964
+16  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+2025-11-22 14:21:26,727 - automation_framework.core.logger - ERROR - Failed to type into element: ('id', 'first-name'). Error: Message: element not interactable
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x000000010264eecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000102646b88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x000000010215e114 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73608
+3   chromedriver                        0x00000001021a0778 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 345580
+4   chromedriver                        0x000000010219f15c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 339920
+5   chromedriver                        0x000000010219b504 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324472
+6   chromedriver                        0x00000001021e6d54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+7   chromedriver                        0x0000000102199ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+8   chromedriver                        0x00000001026120c8 cxxbridge1$str$ptr + 2692164
+9   chromedriver                        0x00000001026158dc cxxbridge1$str$ptr + 2706520
+10  chromedriver                        0x00000001025f284c cxxbridge1$str$ptr + 2563016
+11  chromedriver                        0x00000001026161b4 cxxbridge1$str$ptr + 2708784
+12  chromedriver                        0x00000001025e40f4 cxxbridge1$str$ptr + 2503792
+13  chromedriver                        0x0000000102635498 cxxbridge1$str$ptr + 2836500
+14  chromedriver                        0x000000010263561c cxxbridge1$str$ptr + 2836888
+15  chromedriver                        0x00000001026467d8 cxxbridge1$str$ptr + 2906964
+16  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+2025-11-22 14:21:26,727 - automation_framework.core.logger - ERROR - Failed to type into element: ('id', 'first-name'). Error: Message: element not interactable
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+0   chromedriver                        0x000000010264eecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000102646b88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x000000010215e114 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73608
+3   chromedriver                        0x00000001021a0778 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 345580
+4   chromedriver                        0x000000010219f15c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 339920
+5   chromedriver                        0x000000010219b504 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 324472
+6   chromedriver                        0x00000001021e6d54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+7   chromedriver                        0x0000000102199ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+8   chromedriver                        0x00000001026120c8 cxxbridge1$str$ptr + 2692164
+9   chromedriver                        0x00000001026158dc cxxbridge1$str$ptr + 2706520
+10  chromedriver                        0x00000001025f284c cxxbridge1$str$ptr + 2563016
+11  chromedriver                        0x00000001026161b4 cxxbridge1$str$ptr + 2708784
+12  chromedriver                        0x00000001025e40f4 cxxbridge1$str$ptr + 2503792
+13  chromedriver                        0x0000000102635498 cxxbridge1$str$ptr + 2836500
+14  chromedriver                        0x000000010263561c cxxbridge1$str$ptr + 2836888
+15  chromedriver                        0x00000001026467d8 cxxbridge1$str$ptr + 2906964
+16  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+2025-11-22 14:21:27,039 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-21-26.png
+2025-11-22 14:21:27,039 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-21-26.png
+2025-11-22 14:21:27,039 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-21-26.png
+2025-11-22 14:21:29,525 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:29,525 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:21:29,525 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')

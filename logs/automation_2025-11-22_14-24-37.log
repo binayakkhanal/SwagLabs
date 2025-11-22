@@ -1,0 +1,28 @@
+2025-11-22 14:24:39,156 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:24:39,156 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:24:39,271 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:24:39,271 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:24:39,362 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:24:39,362 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:24:39,426 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:24:39,426 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:24:39,536 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:24:39,536 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:24:39,572 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:24:39,572 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:24:39,601 - automation_framework.core.logger - INFO - Total price calculated: 61.97
+2025-11-22 14:24:39,601 - automation_framework.core.logger - INFO - Total price calculated: 61.97
+2025-11-22 14:24:39,635 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:24:39,635 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:24:39,647 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:24:39,647 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:24:39,684 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:24:39,684 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:24:39,720 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:24:39,720 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:24:39,772 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:24:39,772 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:24:39,804 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'continue')
+2025-11-22 14:24:39,804 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'continue')
+2025-11-22 14:24:50,023 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-24-49.png
+2025-11-22 14:24:50,023 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-24-49.png

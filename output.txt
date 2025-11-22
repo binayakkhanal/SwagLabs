@@ -1,0 +1,288 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.8, pytest-9.0.1, pluggy-1.6.0 -- /Users/binayakkhanal/PycharmProject/swagLabs/venv/bin/python
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.8', 'Platform': 'macOS-14.5-arm64-arm-64bit', 'Packages': {'pytest': '9.0.1', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'xdist': '3.8.0', 'metadata': '3.1.1'}, 'JAVA_HOME': '/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home'}
+rootdir: /Users/binayakkhanal/PycharmProject/swagLabs
+plugins: html-4.1.1, xdist-3.8.0, metadata-3.1.1
+collecting ... collected 1 item
+
+automation_framework/tests/test_e2e_purchase.py::test_e2e_purchase FAILED [100%]
+
+=================================== FAILURES ===================================
+______________________________ test_e2e_purchase _______________________________
+
+driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="f6c0fdd3ca8e5cad05494b63eb7186c8")>
+
+    def test_e2e_purchase(driver):
+        login_page = LoginPage(driver)
+        products_page = ProductsPage(driver)
+        cart_page = CartPage(driver)
+        checkout_page = CheckoutPage(driver)
+    
+        logger.info("Starting E2E Purchase Test")
+    
+        # 1. Login
+        login_page.login("standard_user", "secret_sauce")
+    
+        # 2. Add 3 random products to cart
+        products_page.add_random_products_to_cart(3)
+        assert products_page.get_cart_count() == 3
+    
+        # 3. Go to cart
+        products_page.go_to_cart()
+    
+        # 4. Validate total price
+        total_price = cart_page.get_total_price()
+        logger.info(f"Total price calculated: {total_price}")
+        assert total_price > 0
+    
+        # 5. Checkout
+        cart_page.proceed_to_checkout()
+    
+        # 6. Fill information
+        checkout_page.fill_information("John", "Doe", "12345")
+    
+        # 7. Finish checkout
+>       checkout_page.finish_checkout()
+
+automation_framework/tests/test_e2e_purchase.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+automation_framework/pages/checkout_page.py:22: in finish_checkout
+    self.click(self.FINISH_BUTTON)
+automation_framework/core/base_page.py:21: in click
+    element = self.wait.until(EC.element_to_be_clickable(locator))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <selenium.webdriver.support.wait.WebDriverWait (session="f6c0fdd3ca8e5cad05494b63eb7186c8")>
+method = <function element_to_be_clickable.<locals>._predicate at 0x106d667a0>
+message = ''
+
+    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = "") -> T:
+        """Wait until the method returns a value that is not False.
+    
+        Calls the method provided with the driver as an argument until the
+        return value does not evaluate to ``False``.
+    
+        Parameters:
+        -----------
+        method: callable(WebDriver)
+            - A callable object that takes a WebDriver instance as an argument.
+    
+        message: str
+            - Optional message for :exc:`TimeoutException`
+    
+        Return:
+        -------
+        object: T
+            - The result of the last call to `method`
+    
+        Raises:
+        -------
+        TimeoutException
+            - If 'method' does not return a truthy value within the WebDriverWait
+            object's timeout
+    
+        Example:
+        --------
+        >>> from selenium.webdriver.common.by import By
+        >>> from selenium.webdriver.support.ui import WebDriverWait
+        >>> from selenium.webdriver.support import expected_conditions as EC
+    
+        # Wait until an element is visible on the page
+        >>> wait = WebDriverWait(driver, 10)
+        >>> element = wait.until(EC.visibility_of_element_located((By.ID, "exampleId")))
+        >>> print(element.text)
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            if time.monotonic() > end_time:
+                break
+            time.sleep(self._poll)
+>       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+E       1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+E       2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+E       3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+E       4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+E       5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+E       6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+E       7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+E       8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+E       9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+E       10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+E       11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+E       12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+E       13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+E       14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+E       15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+venv/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:138: TimeoutException
+----------------------------- Captured stderr call -----------------------------
+2025-11-22 14:23:03,158 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:23:03,158 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:23:03,158 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:23:03,258 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:23:03,258 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:23:03,258 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:23:03,359 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:23:03,359 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:23:03,359 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:23:03,412 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:23:03,412 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:23:03,412 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:23:03,542 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:23:03,542 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:23:03,542 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:23:03,581 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:23:03,581 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:23:03,581 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:23:03,612 - automation_framework.core.logger - INFO - Total price calculated: 89.97
+2025-11-22 14:23:03,612 - automation_framework.core.logger - INFO - Total price calculated: 89.97
+2025-11-22 14:23:03,612 - automation_framework.core.logger - INFO - Total price calculated: 89.97
+2025-11-22 14:23:03,653 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:23:03,653 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:23:03,653 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:23:03,665 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:23:03,665 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:23:03,665 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:23:03,712 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:23:03,712 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:23:03,712 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:23:03,769 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:23:03,769 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:23:03,769 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:23:03,804 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:23:03,804 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:23:03,804 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:23:03,840 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'continue')
+2025-11-22 14:23:03,840 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'continue')
+2025-11-22 14:23:03,840 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'continue')
+2025-11-22 14:23:14,100 - automation_framework.core.logger - ERROR - Failed to click on element: ('id', 'finish'). Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+2025-11-22 14:23:14,100 - automation_framework.core.logger - ERROR - Failed to click on element: ('id', 'finish'). Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+2025-11-22 14:23:14,100 - automation_framework.core.logger - ERROR - Failed to click on element: ('id', 'finish'). Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+------------------------------ Captured log call -------------------------------
+INFO     automation_framework.core.logger:test_e2e_purchase.py:16 Starting E2E Purchase Test
+INFO     automation_framework.core.logger:base_page.py:33 Typed 'standard_user' into element: ('id', 'user-name')
+INFO     automation_framework.core.logger:base_page.py:33 Typed 'secret_sauce' into element: ('id', 'password')
+INFO     automation_framework.core.logger:base_page.py:23 Clicked on element: ('id', 'login-button')
+INFO     automation_framework.core.logger:base_page.py:42 Got text '3' from element: ('class name', 'shopping_cart_badge')
+INFO     automation_framework.core.logger:base_page.py:23 Clicked on element: ('class name', 'shopping_cart_link')
+INFO     automation_framework.core.logger:test_e2e_purchase.py:30 Total price calculated: 89.97
+INFO     automation_framework.core.logger:base_page.py:23 Clicked on element: ('id', 'checkout')
+INFO     automation_framework.core.logger:base_page.py:52 Scrolled to element: ('id', 'first-name')
+INFO     automation_framework.core.logger:base_page.py:33 Typed 'John' into element: ('id', 'first-name')
+INFO     automation_framework.core.logger:base_page.py:33 Typed 'Doe' into element: ('id', 'last-name')
+INFO     automation_framework.core.logger:base_page.py:33 Typed '12345' into element: ('id', 'postal-code')
+INFO     automation_framework.core.logger:base_page.py:23 Clicked on element: ('id', 'continue')
+ERROR    automation_framework.core.logger:base_page.py:25 Failed to click on element: ('id', 'finish'). Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+--------------------------- Captured stderr teardown ---------------------------
+2025-11-22 14:23:14,192 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-23-14.png
+2025-11-22 14:23:14,192 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-23-14.png
+2025-11-22 14:23:14,192 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-23-14.png
+---------------------------- Captured log teardown -----------------------------
+ERROR    automation_framework.core.logger:conftest.py:40 Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-23-14.png
+- Generated html report: file:///Users/binayakkhanal/PycharmProject/swagLabs/report.html -
+=========================== short test summary info ============================
+FAILED automation_framework/tests/test_e2e_purchase.py::test_e2e_purchase - selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+============================== 1 failed in 12.83s ==============================

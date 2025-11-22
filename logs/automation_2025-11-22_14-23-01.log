@@ -1,0 +1,99 @@
+2025-11-22 14:23:03,158 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:23:03,158 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:23:03,158 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:23:03,258 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:23:03,258 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:23:03,258 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:23:03,359 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:23:03,359 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:23:03,359 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:23:03,412 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:23:03,412 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:23:03,412 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:23:03,542 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:23:03,542 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:23:03,542 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:23:03,581 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:23:03,581 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:23:03,581 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:23:03,612 - automation_framework.core.logger - INFO - Total price calculated: 89.97
+2025-11-22 14:23:03,612 - automation_framework.core.logger - INFO - Total price calculated: 89.97
+2025-11-22 14:23:03,612 - automation_framework.core.logger - INFO - Total price calculated: 89.97
+2025-11-22 14:23:03,653 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:23:03,653 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:23:03,653 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:23:03,665 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:23:03,665 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:23:03,665 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:23:03,712 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:23:03,712 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:23:03,712 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:23:03,769 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:23:03,769 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:23:03,769 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:23:03,804 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:23:03,804 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:23:03,804 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:23:03,840 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'continue')
+2025-11-22 14:23:03,840 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'continue')
+2025-11-22 14:23:03,840 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'continue')
+2025-11-22 14:23:14,100 - automation_framework.core.logger - ERROR - Failed to click on element: ('id', 'finish'). Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+2025-11-22 14:23:14,100 - automation_framework.core.logger - ERROR - Failed to click on element: ('id', 'finish'). Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+2025-11-22 14:23:14,100 - automation_framework.core.logger - ERROR - Failed to click on element: ('id', 'finish'). Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c36ecc cxxbridge1$str$ptr + 2941512
+1   chromedriver                        0x0000000104c2eb88 cxxbridge1$str$ptr + 2907908
+2   chromedriver                        0x00000001047462b0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74020
+3   chromedriver                        0x000000010478d88c _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 366336
+4   chromedriver                        0x00000001047ced54 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633800
+5   chromedriver                        0x0000000104781ef0 _RNvCsgXDX2mvAJAg_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 318820
+6   chromedriver                        0x0000000104bfa0c8 cxxbridge1$str$ptr + 2692164
+7   chromedriver                        0x0000000104bfd8dc cxxbridge1$str$ptr + 2706520
+8   chromedriver                        0x0000000104bda84c cxxbridge1$str$ptr + 2563016
+9   chromedriver                        0x0000000104bfe1b4 cxxbridge1$str$ptr + 2708784
+10  chromedriver                        0x0000000104bcc0f4 cxxbridge1$str$ptr + 2503792
+11  chromedriver                        0x0000000104c1d498 cxxbridge1$str$ptr + 2836500
+12  chromedriver                        0x0000000104c1d61c cxxbridge1$str$ptr + 2836888
+13  chromedriver                        0x0000000104c2e7d8 cxxbridge1$str$ptr + 2906964
+14  libsystem_pthread.dylib             0x000000019f126f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f121d34 thread_start + 8
+
+2025-11-22 14:23:14,192 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-23-14.png
+2025-11-22 14:23:14,192 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-23-14.png
+2025-11-22 14:23:14,192 - automation_framework.core.logger - ERROR - Test failed. Screenshot saved to screenshots/failed_test_e2e_purchase_2025-11-22_14-23-14.png

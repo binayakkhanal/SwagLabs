@@ -1,0 +1,68 @@
+2025-11-22 14:27:10,704 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:27:10,704 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:27:10,704 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:27:10,704 - automation_framework.core.logger - INFO - Starting E2E Purchase Test
+2025-11-22 14:27:10,816 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:27:10,816 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:27:10,816 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:27:10,816 - automation_framework.core.logger - INFO - Typed 'standard_user' into element: ('id', 'user-name')
+2025-11-22 14:27:10,910 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:27:10,910 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:27:10,910 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:27:10,910 - automation_framework.core.logger - INFO - Typed 'secret_sauce' into element: ('id', 'password')
+2025-11-22 14:27:10,973 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:27:10,973 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:27:10,973 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:27:10,973 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'login-button')
+2025-11-22 14:27:11,074 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:27:11,074 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:27:11,074 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:27:11,074 - automation_framework.core.logger - INFO - Got text '3' from element: ('class name', 'shopping_cart_badge')
+2025-11-22 14:27:11,109 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:27:11,109 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:27:11,109 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:27:11,109 - automation_framework.core.logger - INFO - Clicked on element: ('class name', 'shopping_cart_link')
+2025-11-22 14:27:11,137 - automation_framework.core.logger - INFO - Total price calculated: 53.97
+2025-11-22 14:27:11,137 - automation_framework.core.logger - INFO - Total price calculated: 53.97
+2025-11-22 14:27:11,137 - automation_framework.core.logger - INFO - Total price calculated: 53.97
+2025-11-22 14:27:11,137 - automation_framework.core.logger - INFO - Total price calculated: 53.97
+2025-11-22 14:27:11,170 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:27:11,170 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:27:11,170 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:27:11,170 - automation_framework.core.logger - INFO - Clicked on element: ('id', 'checkout')
+2025-11-22 14:27:11,181 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:27:11,181 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:27:11,181 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:27:11,181 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'first-name')
+2025-11-22 14:27:11,220 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:27:11,220 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:27:11,220 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:27:11,220 - automation_framework.core.logger - INFO - Typed 'John' into element: ('id', 'first-name')
+2025-11-22 14:27:11,281 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:27:11,281 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:27:11,281 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:27:11,281 - automation_framework.core.logger - INFO - Typed 'Doe' into element: ('id', 'last-name')
+2025-11-22 14:27:11,332 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:27:11,332 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:27:11,332 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:27:11,332 - automation_framework.core.logger - INFO - Typed '12345' into element: ('id', 'postal-code')
+2025-11-22 14:27:11,350 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:27:11,350 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:27:11,350 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:27:11,350 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'continue')
+2025-11-22 14:27:11,360 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:27:11,360 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:27:11,360 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:27:11,360 - automation_framework.core.logger - INFO - Scrolled to element: ('id', 'finish')
+2025-11-22 14:27:11,368 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:27:11,368 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:27:11,368 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:27:11,368 - automation_framework.core.logger - INFO - JS Clicked on element: ('id', 'finish')
+2025-11-22 14:27:11,381 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:27:11,381 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:27:11,381 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:27:11,381 - automation_framework.core.logger - INFO - Got text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-11-22 14:27:11,381 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
+2025-11-22 14:27:11,381 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
+2025-11-22 14:27:11,381 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
+2025-11-22 14:27:11,381 - automation_framework.core.logger - INFO - E2E Purchase Test Completed Successfully
