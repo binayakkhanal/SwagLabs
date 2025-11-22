@@ -1,4 +1,0 @@
-2025-11-22 14:21:08,553 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
-2025-11-22 14:21:08,553 - automation_framework.core.logger - INFO - GET https://jsonplaceholder.typicode.com/users - Status: 200
-2025-11-22 14:21:09,469 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
-2025-11-22 14:21:09,469 - automation_framework.core.logger - INFO - POST https://jsonplaceholder.typicode.com/posts - Status: 201
